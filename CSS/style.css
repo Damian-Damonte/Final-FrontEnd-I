@@ -1,0 +1,510 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+body, main {
+    background-image: url(../img/fondo.svg);
+    background-repeat: no-repeat;
+    background-position: 700px -150px;
+    background-size: 700px;
+}
+main {
+    background-position: -400px 900px;
+    background-size: 750px;
+}
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 8vw;
+}
+header div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.burger {
+    display: none;
+}
+header nav {
+    display: flex;
+}
+header nav ul li {
+    display: inline;
+    margin-left: 3vw;
+}
+header nav ul li a {
+    color: #000000;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+header nav ul li a:hover {
+    color: #F3603B;
+}
+button.getStarted {
+    background-color: #F3603B;
+    border: solid 2px #F3603B;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 13px;
+    padding: 12.5px 30.5px;
+    transition: all 0.5s;
+}
+button.getStarted:hover {
+    background-color: white;
+    color: #000000;
+}
+.sectionprincipal{
+    display: flex;
+    padding: 0px 8vw;
+}
+.sectionprincipal section.home {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+article.frasehome {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vw;
+    width: 50%;
+}
+article.frasehome p:nth-of-type(1) {
+    color: #232C50;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 66px;
+}
+article.frasehome p:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 28px;
+    width: 61%;
+    color: #B3B2B7;
+}
+article.frasehome button {
+    margin-top: 45px;
+}
+section.home article.grafico {
+    width: 50%;
+}
+article.grafico img {
+    width: 100%;
+}
+.sobrenosotros {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding: 0px 8vw;
+}
+.sobrenosotros .diferencias {
+    width: 50%;
+    padding-right: 3vw;
+}
+.sobrenosotros article.diferencias p:nth-of-type(1){
+    color: #232851;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.sobrenosotros .diferencias p:nth-of-type(2) {
+    font-size: 16px;
+    font-weight: 00;
+    line-height: 24px;
+    margin-top: 36px;
+    width: 25vw;
+    color: #B3B2B7;;
+}
+.sobrenosotros .pasos {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.sobrenosotros .pasos div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding-right: 2vw;
+}
+.sobrenosotros .pasos div span {
+    color: #323851;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+}
+.sobrenosotros .pasos div p {
+    color: #B3B2B7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 18px 0px 0px 6vw;
+}
+.sobrenosotros .pasos div span::before  {
+    background-color: #F3603B;
+    border-radius: 30px;
+    color: white;
+    content: "01";
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 15px;
+    padding: 10px 25px 10px 25px;
+}
+.sobrenosotros .pasos div .pasosSpan02::before  {
+    content: "02";
+}
+.sobrenosotros .pasos div .pasosSpan03::before  {
+    content: "03";
+}
+main .sectiontestimonios {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    padding: 0px 70px;
+}
+.sectiontestimonios h3 {
+    color: #242E53;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 61px;
+}
+.sectiontestimonios .testimonios {
+    align-items: center;
+    background-color: #FAFAFA;
+    display: flex;
+    margin-top: 70px;
+}
+.testimonios .articleTestimonio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 28px 39px 28px;
+    position: relative;
+}
+.articleTestimonio img {
+    position: absolute; top:-35px
+}
+.articleTestimonio span {
+    color: #3F4868;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 56px;
+}
+.articleTestimonio p {
+    color: #B9B9C1;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 21px;
+    text-align: center;
+}
+.sectiontestimonios button {
+    margin-top: 40px;
+}
+main .prefooter {
+    align-items: center;
+    background-color: #F3603B;
+    display: flex;
+    height: 224px;
+    justify-content: space-between;
+    margin-top: 180px;
+    padding: 64px 11vw;
+    width: 100%;
+}
+.prefooter div {
+    display: flex;
+    width: 438px;
+}
+.prefooter div span {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.prefooter button {
+    background-color: white;
+    border: solid 2px white;
+    color: #F3603B;
+}
+.prefooter button:hover {
+    border: solid 2px #000000;
+    color: black;
+}
+footer {
+    align-items: center;
+    background-color: #1E1E26;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 9vw;
+}
+footer .logoRedes {
+    display: flex;
+    flex-direction: column;
+}
+.logoRedes .redes {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.logoRedes .redes i:hover {
+    color: #F3603B;
+}
+footer .opcionescontenedor {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+}
+footer .opciones ul{
+    list-style: none;
+}
+footer .opciones ul li {
+    margin-top: 12px;
+}
+footer .opciones ul a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+footer .opciones ul a:hover {
+    color: #F3603B;
+}
+footer .opciones2 ul{
+    list-style: none;
+}
+footer .opciones2 ul li {
+    margin-top: 12px;
+}
+footer .opciones2 ul a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+footer .opciones2 ul a:hover {
+    color: #F3603B;
+}
+footer .buscador {
+    display: flex;
+    flex-direction: column;
+}
+.buscador form input {
+    border: solid 2px black;
+    border-radius: 50px;
+    height: 44px;
+    padding: 10px;
+    transition: all 0.5s;
+    width: 15vw;
+}
+.buscador form input:hover {
+    border: solid 2px #F3603B;
+}
+.buscador form input:focus {
+    color: #F3603B ;
+    transform: scale(1.1);
+}
+.buscador form button {
+    color: white;
+    height: 42px;
+    padding: 0px;
+    width: 63px;
+}
+.buscador form button:hover {
+    background-color: white;
+    color: black;
+}
+footer .buscador span {
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 400;
+    line-height: 18.26px;
+    margin-top: 73px;
+}
+footer .copyright {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-position: 100px -50px;
+        background-size: 450px;
+    }
+    main {
+        background-position: 200px 600px;
+        background-size: 400px;
+    }
+    header {
+        padding: 30px 20px 30px 10px;
+    }
+    .burger {
+        display: flex;
+    }
+    header nav {
+        display: none;
+    }
+    header button {
+        display: none;
+    }
+    .sectionprincipal{
+        padding: 0px;
+    }
+    .sectionprincipal section.home {
+        flex-direction: column-reverse;
+    }
+    article.frasehome {
+        align-items: center;
+        margin-top: 0px;
+        width: 100vw;
+    }
+    article.frasehome p:nth-of-type(1) {
+        font-size: 48px;
+        text-align: center;
+    }
+    article.frasehome p:nth-of-type(2) {
+        text-align: center;
+        width: 95%;
+    }
+    article.frasehome button {
+        margin-top: 25px;
+    }
+    section.home article.grafico {
+        display: flex;
+        width: 100vw;
+    }
+    .sobrenosotros {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        padding: 0px 0px;
+    }
+    .sobrenosotros .diferencias {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .sobrenosotros article.diferencias p:nth-of-type(1){
+        color: #232851;
+        text-align: center;
+    }
+    .sobrenosotros .diferencias p:nth-of-type(2) {
+        color: #B3B2B7;
+        margin-top: 26px;
+        text-align: center;
+        width: 95%;
+    }
+    .sobrenosotros .pasos {
+        margin-top: 60px;
+        width: 100%;
+    }
+    .sobrenosotros .pasos div span {
+        background-color: rgba(243, 96, 59, 0.15);
+        font-size: 4.5vw;
+        padding: 8px 0px 8px 0px;
+        text-align: left;
+        width: 100%;
+    }                  
+    .sobrenosotros .pasos div p {
+        margin: 18px 8px 0px 8px;
+    }
+    main .sectiontestimonios {
+        margin-top: 100px;
+        padding: 0px 0px;
+    }
+    .sectiontestimonios h3 {
+        font-size:10vw;
+        margin: 0px 5px 0px 5px;
+    }
+    .sectiontestimonios .testimonios {
+        width: 95%;
+    }
+    .sectiontestimonios .testimonios article:nth-of-type(2){
+        display: flex;
+    }
+    .testimonios .articleTestimonio {
+        display: none;
+    }
+    main .prefooter {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        margin-top: 100px;
+        padding: 40px 10px;
+        width: 100%;
+    }
+    .prefooter div {
+        width: auto;
+    }
+    .prefooter div span {
+        font-size: 10vw;
+        font-weight: 500;
+        text-align: center;
+    }
+    .prefooter button {
+        margin-top: 20%;
+    }
+    footer {
+        flex-direction: column;
+        padding: 40px 0px;
+    }
+    footer .logoRedes {
+        flex-direction: column-reverse;
+        gap: 10vw;
+        margin-top: 5vw;
+        order: 3;
+    }
+    .logoRedes .redes {
+        display: flex;
+        font-size: 3rem;
+        gap: 5vw;
+        justify-content: space-evenly;
+        margin-top: 0px;
+    }
+    .logoRedes div:nth-of-type(1) {
+        align-self: center;
+    }
+    footer .buscador {
+        order: -1;
+    }
+    footer .buscador div form {
+        display: flex;
+    }
+    .buscador form input {
+        width: 60vw;
+    }
+    footer .buscador span {
+        display: none;
+    }
+    footer .opcionescontenedor {
+        align-items: flex-start;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20vw;
+        width: 100vw;
+        font-weight: 400;
+    }
+    footer .opciones ul{
+        display: inline;
+    }
+    footer .opciones2 ul {
+        display: inline;
+    }
+    footer .copyright {
+        color: #8C8C94;
+        display: flex;
+        font-weight: 400;
+        justify-content: center;
+        margin-top: 12vw;
+        order: 4;
+        width: 100vw;
+    }
+}
